@@ -1,0 +1,10 @@
+node_modules/
+*.db
+*.db-journal
+.env
+.env.*
+!.env.example
+rank*.json
+scan*.json
+__pycache__/
+*.pyc

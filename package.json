@@ -1,0 +1,43 @@
+{
+  "name": "x402-seller-toolkit",
+  "version": "0.1.0",
+  "description": "Diagnostic tools for x402 sellers who get traffic but no revenue: listing metadata lint, buyer-vocabulary rank prober, funnel report that separates sweeps and self-pay from real demand.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "x402-rank-probe": "tools/rank-probe.mjs",
+    "x402-funnel-report": "tools/funnel-report.mjs",
+    "x402-metadata-lint": "tools/metadata-lint.mjs"
+  },
+  "scripts": {
+    "rank": "node tools/rank-probe.mjs",
+    "funnel": "node tools/funnel-report.mjs",
+    "lint": "node tools/metadata-lint.mjs",
+    "scan": "python3 tools/bazaar-scan.py"
+  },
+  "keywords": [
+    "x402",
+    "http-402",
+    "agents",
+    "usdc",
+    "base",
+    "payments",
+    "monetization",
+    "discovery"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bGhullu/x402-seller-toolkit.git"
+  },
+  "files": [
+    "tools",
+    "docs",
+    "ref",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ]
+}
