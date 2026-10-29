@@ -1,0 +1,11 @@
+This is a live x402 seller on Base mainnet, and everything you are about to see is real: real HTTP 402 challenges, real USDC settling on chain, and the real numbers from four days of running it.
+
+First, the challenge. A buyer asks for a paid route with no payment attached, and the seller answers 402 with the terms: the network, the asset, the price, and the payout address. Ten thousandths of a dollar for a token risk verdict.
+
+Next, the settlement. A capped buyer agent signs a gasless authorization, the facilitator submits it and pays the gas, and the USDC moves. Watch the response: a verdict with a letter grade, and the transaction hash that proves it settled on chain.
+
+Now the same sale read back from the seller's own ledger. This is the part most sellers never look at. Eight thousand two hundred challenges served. Twenty seven settlements. Four external paying wallets, each paying once, one tenth of a cent, all on the cheapest route. Four thousandths of a dollar of real revenue, against thirty three cents of self pay from listing triggers. That ratio is the entire problem with this rail, and it is invisible on a public dashboard.
+
+Last, discovery. The toolkit probes the words a buyer would actually type. One query, x402 test endpoint, we hold rank one and thirteen. Rug pull detection, rank seven. But for token security and honeypot check, absent, despite exactly matching descriptions, because ranking is ordered by payer volume, not vocabulary.
+
+That is why the toolkit exists: a metadata lint, a rank prober, a funnel report and an index scanner. Zero dependencies, MIT, and free for any x402 seller who is getting traffic and wondering why there is no revenue.
